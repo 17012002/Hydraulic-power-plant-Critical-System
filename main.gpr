@@ -1,8 +1,0 @@
-project Main is
-   for Main use ("main.adb");
-   package Compiler is
-      for Default_Switches ("ada") use ("-gnatwa");
-   end Compiler;
-
-
-end Main;
